@@ -33,7 +33,7 @@ columns
 </tr>
 </table>
 
-<textarea id="test" rows="50" cols="100"></textarea>
+<!-- <textarea id="test" rows="50" cols="100"></textarea> -->
 <div id="images"></div>
 
 <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>

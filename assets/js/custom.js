@@ -1,5 +1,5 @@
 /* Url to the plots */
-plotPath = "https://raw.githubusercontent.com/vodopijaaljosa/cmop-data/main/plots-2D/";
+plotPath = "../assets/img/plots-2D/";
 
 /* Fill the columns dropdown with values */
 var selectCol = document.getElementById("col");
@@ -71,7 +71,7 @@ function changePlot() {
   let chosenViz = viz.value;
   let textName;
   document.getElementById("images").innerHTML = "";
-  document.getElementById("test").value = "";
+  //document.getElementById("test").value = "";
   if (selectedNode === "suiAll") {
     /* Showing all suites */
     for (let iSui = 0; iSui < valuesSui.length; iSui++) {
@@ -79,7 +79,7 @@ function changePlot() {
       for (let iPrb = 0; iPrb < countSui[iSui]; iPrb++) {
         plotName = problemSui[suite][iPrb] + "-" + chosenViz + ".png";
         addPlot(plotName);
-        document.getElementById("test").value += plotPath + plotName + "\n";
+        //document.getElementById("test").value += plotPath + plotName + "\n";
       }
     }
   } else if (selectedNode === "vizAll") {
@@ -94,7 +94,7 @@ function changePlot() {
       for (let iPrb = 0; iPrb < countSui[chosenSuiIndex]; iPrb++) {
         plotName = problemSui[suite][iPrb] + "-" + valuesViz[iViz] + ".png";
         addPlot(plotName);
-        document.getElementById("test").value += plotPath + plotName + "\n";
+        //document.getElementById("test").value += plotPath + plotName + "\n";
       }
     }
   }
