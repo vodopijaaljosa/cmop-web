@@ -14,8 +14,8 @@ selectCol.options[4].selected = true;
 
 /* Fill the suite dropdown with values */
 var selectSui = document.getElementById("sui");
-var valuesSui = ["CTP", "C-DTLZ", "DC-DTLZ", "MW", "DAS-CMOP", "Classic", "RCM"];
-var countSui = [8, 5, 6, 8, 6, 3, 2]; /* Number of problems in each suite */
+var valuesSui = ["CTP", "C-DTLZ", "DC-DTLZ", "DAS-CMOP", "MW", "Classic", "RCM"];
+var countSui = [8, 5, 6, 6, 8, 3, 2]; /* Number of problems in each suite */
 var contentsSui;
 for (let i = 0; i < valuesSui.length; i++) {
   contentsSui += "<option>" + valuesSui[i] + "</option>";
@@ -25,8 +25,8 @@ var problemSui = {
   "CTP": ["CTP1", "CTP2", "CTP3", "CTP4", "CTP5", "CTP6", "CTP7", "CTP8"],
   "C-DTLZ": ["C1-DTLZ1", "C1-DTLZ3", "C2-DTLZ2", "Convex-C2-DTLZ2", "C3-DTLZ1"],
   "DC-DTLZ": ["DC1-DTLZ1", "DC2-DTLZ1", "DC2-DTLZ1", "DC2-DTLZ3", "DC3-DTLZ1", "DC3-DTLZ3"],
-  "MW": ["MW3", "MW6", "MW7", "MW8", "MW10", "MW11", "MW13", "MW14"],
   "DAS-CMOP": ["DAS-CMOP1", "DAS-CMOP2", "DAS-CMOP3", "DAS-CMOP4", "DAS-CMOP5", "DAS-CMOP6"],
+  "MW": ["MW3", "MW6", "MW7", "MW8", "MW10", "MW11", "MW13", "MW14"],
   "Classic": ["BNH", "SRN", "TNK"],
   "RCM": ["RCM10", "RCM16"]
 };
