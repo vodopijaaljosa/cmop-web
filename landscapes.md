@@ -22,12 +22,12 @@ columns
 <tr>
 <td class="select" align="center">
 <button id="suiPrev" onclick="getPrev(this)" class="button"><i class="arrow left"></i></button>
-<select id="sui" onchange="changePlot()" style="width:200px;"></select>
+<select id="sui" onchange="changePlot()" style="width:160px;"></select>
 <button id="suiNext" onclick="getNext(this)" class="button"><i class="arrow right"></i></button>
 </td>
 <td class="select" align="center">
 <button id="vizPrev" onclick="getPrev(this)" class="button"><i class="arrow left"></i></button>
-<select id="viz" onchange="changePlot()" style="width:200px;"></select>
+<select id="viz" onchange="changePlot()" style="width:320px;"></select>
 <button id="vizNext" onclick="getNext(this)" class="button"><i class="arrow right"></i></button>
 </td>
 </tr>
