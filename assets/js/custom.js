@@ -90,8 +90,8 @@ function changePlot() {
       }
     }
     let suite = valuesSui[chosenSuiIndex];
-    for (let iViz = 0; iViz < valuesViz.length; iViz++) {
-      for (let iPrb = 0; iPrb < countSui[chosenSuiIndex]; iPrb++) {
+    for (let iPrb = 0; iPrb < countSui[chosenSuiIndex]; iPrb++) {
+      for (let iViz = 0; iViz < valuesViz.length; iViz++) {
         plotName = problemSui[suite][iPrb] + "-" + valuesViz[iViz] + ".png";
         addPlot(plotName);
         //document.getElementById("test").value += plotPath + plotName + "\n";
