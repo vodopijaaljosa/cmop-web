@@ -2,10 +2,10 @@
 layout: default
 permalink: /features/all/
 parent: Visualizations of features
-title: All problem suites
+title: Problem suites of all dimensions
 ---
 
-# Features of all problem suites #
+# Features of problem suites of all dimensions #
 ---
 
 <img src="../../assets/img/plots-features/all-fr.png" class="features">
