@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Plots of constrained multiobjective optimization problems</title>
+<style type="text/css">
+body {
+    max-width: 960px;
+    margin: auto;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+div.pandas-dataframe {
+    overflow: auto;
+}
+table.dataframe {
+    border-collapse: collapse;
+    border: none;
+}
+table.dataframe td {
+  background-color: #fffef4;
+  font-size: 14px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border: 1px solid #d7d7d7;
+}
+table.dataframe th {
+  background-color: #f9f9f9;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border: 1px solid #e0e0e0;
+}
+table.dataframe tr:nth-child(even) td {
+  background: #fff2e4;
+}
+table.dataframe tr:nth-child(odd) td {
+  background: #ffffe8;
+}
+table.dataframe tr:hover td {
+  background-color: #ddeeff;
+}
+table.dataframe tbody th {
+  font-weight: normal;
+}
+body { max-width: 95%; }
+</style>
+</head>
+<body>
+<h1 style="text-align: center">Plots of constrained multiobjective optimization problems</h1>
+<h2 style="text-align: left">BNH</h2>
+<img src="BNH-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="BNH-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="BNH-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="BNH-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="BNH-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">C1-DTLZ1</h2>
+<img src="C1-DTLZ1-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C1-DTLZ1-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C1-DTLZ1-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C1-DTLZ1-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C1-DTLZ1-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">C1-DTLZ3</h2>
+<img src="C1-DTLZ3-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C1-DTLZ3-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C1-DTLZ3-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C1-DTLZ3-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C1-DTLZ3-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">C2-DTLZ2</h2>
+<img src="C2-DTLZ2-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C2-DTLZ2-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C2-DTLZ2-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C2-DTLZ2-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C2-DTLZ2-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">C3-DTLZ1</h2>
+<img src="C3-DTLZ1-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C3-DTLZ1-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C3-DTLZ1-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C3-DTLZ1-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="C3-DTLZ1-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">CTP1</h2>
+<img src="CTP1-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP1-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP1-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP1-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP1-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">CTP2</h2>
+<img src="CTP2-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP2-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP2-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP2-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP2-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">CTP3</h2>
+<img src="CTP3-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP3-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP3-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP3-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP3-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">CTP4</h2>
+<img src="CTP4-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP4-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP4-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP4-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP4-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">CTP5</h2>
+<img src="CTP5-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP5-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP5-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP5-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP5-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">CTP6</h2>
+<img src="CTP6-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP6-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP6-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP6-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP6-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">CTP7</h2>
+<img src="CTP7-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP7-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP7-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP7-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP7-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">CTP8</h2>
+<img src="CTP8-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP8-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP8-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP8-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="CTP8-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">Convex-C2-DTLZ2</h2>
+<img src="Convex-C2-DTLZ2-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="Convex-C2-DTLZ2-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="Convex-C2-DTLZ2-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="Convex-C2-DTLZ2-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="Convex-C2-DTLZ2-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">DAS-CMOP1</h2>
+<img src="DAS-CMOP1-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP1-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP1-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP1-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP1-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">DAS-CMOP2</h2>
+<img src="DAS-CMOP2-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP2-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP2-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP2-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP2-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">DAS-CMOP3</h2>
+<img src="DAS-CMOP3-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP3-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP3-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP3-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP3-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">DAS-CMOP4</h2>
+<img src="DAS-CMOP4-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP4-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP4-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP4-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP4-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">DAS-CMOP5</h2>
+<img src="DAS-CMOP5-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP5-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP5-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP5-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP5-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">DAS-CMOP6</h2>
+<img src="DAS-CMOP6-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP6-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP6-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP6-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DAS-CMOP6-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">DC1-DTLZ1</h2>
+<img src="DC1-DTLZ1-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC1-DTLZ1-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC1-DTLZ1-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC1-DTLZ1-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC1-DTLZ1-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">DC1-DTLZ3</h2>
+<img src="DC1-DTLZ3-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC1-DTLZ3-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC1-DTLZ3-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC1-DTLZ3-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC1-DTLZ3-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">DC2-DTLZ1</h2>
+<img src="DC2-DTLZ1-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC2-DTLZ1-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC2-DTLZ1-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC2-DTLZ1-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC2-DTLZ1-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">DC2-DTLZ3</h2>
+<img src="DC2-DTLZ3-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC2-DTLZ3-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC2-DTLZ3-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC2-DTLZ3-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC2-DTLZ3-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">DC3-DTLZ1</h2>
+<img src="DC3-DTLZ1-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC3-DTLZ1-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC3-DTLZ1-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC3-DTLZ1-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC3-DTLZ1-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">DC3-DTLZ3</h2>
+<img src="DC3-DTLZ3-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC3-DTLZ3-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC3-DTLZ3-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC3-DTLZ3-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="DC3-DTLZ3-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">MW10</h2>
+<img src="MW10-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW10-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW10-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW10-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW10-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">MW11</h2>
+<img src="MW11-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW11-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW11-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW11-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW11-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">MW13</h2>
+<img src="MW13-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW13-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW13-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW13-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW13-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">MW14</h2>
+<img src="MW14-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW14-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW14-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW14-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW14-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">MW3</h2>
+<img src="MW3-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW3-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW3-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW3-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW3-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">MW6</h2>
+<img src="MW6-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW6-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW6-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW6-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW6-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">MW7</h2>
+<img src="MW7-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW7-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW7-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW7-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW7-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">MW8</h2>
+<img src="MW8-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW8-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW8-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW8-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="MW8-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">RCM10</h2>
+<img src="RCM10-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="RCM10-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="RCM10-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="RCM10-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="RCM10-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">RCM16</h2>
+<img src="RCM16-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="RCM16-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="RCM16-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="RCM16-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="RCM16-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">SRN</h2>
+<img src="SRN-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="SRN-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="SRN-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="SRN-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="SRN-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<h2 style="text-align: left">TNK</h2>
+<img src="TNK-problem-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="TNK-dominance-ratio.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="TNK-violation-landscape.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="TNK-all-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+<img src="TNK-nondom-solutions.png" width=19% style="border:1px solid #021a40; margin: 3px 3px">
+</body>
+</html>
