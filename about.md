@@ -7,7 +7,8 @@ title: Home
 
 # Supplementary material for the CMOP paper #
 ---
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}"/>
+
+{: .no_toc } 
 
 Welcome to the website with supplementary material for the CMOP paper. 
 
