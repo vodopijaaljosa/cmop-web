@@ -9,9 +9,9 @@ plotPath = "../assets/img/plots-features-multiple/";
 
 /* Not all suites are available for all dimensions */
 var dimSui = {
-  "d2": ["CTP", "C-DTLZ", "DC-DTLZ", "DAS-CMOP", "MW", "RCM"],
-  "d3": ["CTP", "CF",  "C-DTLZ", "NCTP", "DC-DTLZ", "DAS-CMOP", "LIR-CMOP", "MW", "RCM"],
-  "all": ["CTP", "CF",  "C-DTLZ", "NCTP", "DC-DTLZ", "DAS-CMOP", "LIR-CMOP", "MW", "RCM"],
+  "d2": ["Any", "CTP", "C-DTLZ", "DC-DTLZ", "DAS-CMOP", "MW", "RCM"],
+  "d3": ["Any", "CTP", "CF",  "C-DTLZ", "NCTP", "DC-DTLZ", "DAS-CMOP", "LIR-CMOP", "MW", "RCM"],
+  "all": ["Any", "CTP", "CF",  "C-DTLZ", "NCTP", "DC-DTLZ", "DAS-CMOP", "LIR-CMOP", "MW", "RCM"],
 };
 
 /* Fill the suite dropdown with values */
