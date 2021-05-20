@@ -2,7 +2,7 @@
 layout: default
 permalink: /features-separate/anyd/
 title: Any-D problem suites
-nav_order: 3
+nav_order: 4
 parent: Visualizations of separate features
 ---
 

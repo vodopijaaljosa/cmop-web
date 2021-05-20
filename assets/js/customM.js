@@ -11,6 +11,7 @@ plotPath = "../assets/img/plots-features-multiple/";
 var dimSui = {
   "d2": ["Any", "CTP", "C-DTLZ", "DC-DTLZ", "DAS-CMOP", "MW", "RCM"],
   "d3": ["Any", "CTP", "CF",  "C-DTLZ", "NCTP", "DC-DTLZ", "DAS-CMOP", "LIR-CMOP", "MW", "RCM"],
+  "d5": ["Any", "CTP", "CF",  "C-DTLZ", "NCTP", "DC-DTLZ", "DAS-CMOP", "LIR-CMOP", "MW", "RCM"],
   "all": ["Any", "CTP", "CF",  "C-DTLZ", "NCTP", "DC-DTLZ", "DAS-CMOP", "LIR-CMOP", "MW", "RCM"],
 };
 
@@ -32,14 +33,14 @@ selectSui.innerHTML = contentsSui;
 
 /* Fill the dimension dropdown with values */
 var selectDim = document.getElementById("dim");
-var namesDim = ["2", "3", "Any"];
-var valuesDim = ["d2", "d3", "all"];
+var namesDim = ["2", "3", "5", "Any"];
+var valuesDim = ["d2", "d3", "d5", "all"];
 var contentsDim;
 for (let i = 0; i < valuesDim.length; i++) {
   contentsDim += "<option value=\"" + valuesDim[i] + "\">" + namesDim[i] + "</option>";
 }
 selectDim.innerHTML = contentsDim;
-selectDim.options[2].selected = true;
+selectDim.options[3].selected = true;
 
 /* Fill the visualization dropdown with values */
 var selectViz = document.getElementById("viz");
@@ -81,6 +82,7 @@ function changePlot() {
 				if (dimSui[chosenDim[iDim]].indexOf(chosenSui[iSui]) > -1) {
 					plotName = "proj-" + chosenDim[iDim] + "-" + chosenViz[iViz] + "-" + chosenSui[iSui] + ".png";
 					addPlot(plotPath, plotName);
+					//document.getElementById("test").value += plotName + "\n";
 			    }
 			}
 		}
@@ -90,6 +92,7 @@ function changePlot() {
 			for (let iViz = 0; iViz < chosenViz.length; iViz++) {
 				plotName = "proj-" + chosenDim[iDim] + "-" + chosenViz[iViz] + "-color-" + valuesFea[iFea] + ".png";
 				addPlot(plotPath, plotName);
+				//document.getElementById("test").value += plotName + "\n";
 			}
 		}
 	}
