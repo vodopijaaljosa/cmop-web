@@ -2,7 +2,7 @@
 /* Functions for the Visualizations of multiple features page */
 /**************************************************************/
 
-selectCol.options[1].selected = true;
+selectCol.options[3].selected = true;
 
 /* Url to the plots */
 plotPath = "../assets/img/plots-features-multiple/";
@@ -13,6 +13,13 @@ var dimSui = {
   "d3": ["Any", "CTP", "CF",  "C-DTLZ", "NCTP", "DC-DTLZ", "DAS-CMOP", "LIR-CMOP", "MW", "RCM"],
   "all": ["Any", "CTP", "CF",  "C-DTLZ", "NCTP", "DC-DTLZ", "DAS-CMOP", "LIR-CMOP", "MW", "RCM"],
 };
+
+/* Features */
+var valuesFea = ["fr", "n_com", "max_com", "median_com", "min_com", "opt_max_com", "size_opt_com",
+	"pf_bound", "h_max", "m0", "corr_min", "corr_max", "n_basin", "max_basin", "median_basin",
+	"min_basin", "max_feas_basin", "median_feas_basin", "min_feas_basin", "opt_max_basin",
+	"size_opt_basin", "fr_basin", "max_cv_basin", "median_cv_basin", "cv_max_basin", "max_rfb",
+	"median_rfb", "min_rfb"];
 
 /* Fill the suite dropdown with values */
 var selectSui = document.getElementById("sui");
@@ -32,6 +39,7 @@ for (let i = 0; i < valuesDim.length; i++) {
   contentsDim += "<option value=\"" + valuesDim[i] + "\">" + namesDim[i] + "</option>";
 }
 selectDim.innerHTML = contentsDim;
+selectDim.options[2].selected = true;
 
 /* Fill the visualization dropdown with values */
 var selectViz = document.getElementById("viz");
@@ -74,6 +82,14 @@ function changePlot() {
 					plotName = "proj-" + chosenDim[iDim] + "-" + chosenViz[iViz] + "-" + chosenSui[iSui] + ".png";
 					addPlot(plotPath, plotName);
 			    }
+			}
+		}
+	}
+	for (let iFea = 0; iFea < valuesFea.length; iFea++) {
+		for (let iDim = 0; iDim < chosenDim.length; iDim++) {
+			for (let iViz = 0; iViz < chosenViz.length; iViz++) {
+				plotName = "proj-" + chosenDim[iDim] + "-" + chosenViz[iViz] + "-color-" + valuesFea[iFea] + ".png";
+				addPlot(plotPath, plotName);
 			}
 		}
 	}
