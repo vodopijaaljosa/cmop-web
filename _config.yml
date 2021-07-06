@@ -2,6 +2,7 @@ title: CMOP
 description: >- 
   This is the supplementary material for the CMOP paper
 url: "vodopijaaljosa.github.io/cmop-web" 
+baseurl: ""
 
 # Build settings
 remote_theme: pmarsceill/just-the-docs
