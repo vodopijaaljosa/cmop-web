@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /features-separate/anyd/
 title: Any-D problem suites
 nav_order: 4
