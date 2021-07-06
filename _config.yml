@@ -1,9 +1,9 @@
 title: CMOP
 description: >- 
   This is the supplementary material for the CMOP paper
-url: "vodopijaaljosa.github.io"
-baseurl: "/cmop-web"
-#url: "vodopijaaljosa.github.io/cmop-web" # For local testing
+#url: "vodopijaaljosa.github.io"
+#baseurl: "/cmop-web"
+url: "vodopijaaljosa.github.io/cmop-web" # For local testing
 github_repo: "vodopijaaljosa/cmop-web"
 
 # Build settings
