@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /features-multiple/
 nav_order: 4
 title: Visualizations of multiple features

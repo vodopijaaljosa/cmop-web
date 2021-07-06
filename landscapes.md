@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /landscapes/
 nav_order: 2
 title: Problem landscape visualizations

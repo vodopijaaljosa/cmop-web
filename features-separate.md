@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: /features-separate/
 nav_order: 3
 title: Visualizations of separate features
