@@ -25,7 +25,7 @@ Welcome to the website with supplementary material for the paper entitled **Char
 * *Non-dominated solutions* in the objective space where the unconstrained Pareto front is depicted in pink and the constrained Pareto front in blue.
 
 #### Visualizations of separate features ####
-* Violin plots showing feature distributions for each test suite and three dimensionalities: 2, 3, 5. All the features used are presented in the table below.
+* Violin plots showing feature distributions for each test suite and three dimensionalities: 2, 3, 5. All the features used are listed in the table below.
 
 Feature | Symbol
 :------- | :------
@@ -56,7 +56,7 @@ Maximum constraint violation of all basins | $$v(\mathcal{B})_{\mathrm{max}}$$
 Median constraint violation over all basins | $$v(\mathcal{B})_{\mathrm{med}}$$
 Constraint violation of the maximum basin | $$v(\mathcal{B}_{\mathrm{max}})$$
 Maximal ratio of feasible boundary crossings | $$(\rho_{\partial F})_{\mathrm{max}}$$
-Median ratio of feasible boundary crossings | $$(\rho_{\partial F})_{\mathrm{median}}$$
+Median ratio of feasible boundary crossings | $$(\rho_{\partial F})_{\mathrm{med}}$$
 Minimal ratio of feasible boundary crossings | $$(\rho_{\partial F})_{\mathrm{min}}$$
 
 #### Visualizations of multiple features ####
