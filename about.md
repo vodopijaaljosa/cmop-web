@@ -6,11 +6,14 @@ title: Home
 ---
 
 # Characterization of Constrained Multiobjective Optimization Problems (CMOPs) #
+
 ---
 
 {: .no_toc } 
 
-Welcome to the website with supplementary material for the paper entitled **Characterization of Constrained Continuous Multiobjective Optimization Problems: A Feature Space Perspective** by Aljoša Vodopija, Tea Tušar and Bogdan Filipič. 
+Welcome to the website with supplementary material for the paper entitled **Characterization of Constrained Continuous Multiobjective Optimization Problems: A Feature Space Perspective** by Aljoša Vodopija, Tea Tušar and Bogdan Filipič.
+
+---
 
 ## Content ##
 
@@ -26,35 +29,35 @@ Welcome to the website with supplementary material for the paper entitled **Char
 
 Feature | Symbol
 ------- | ------
-Feasibility ratio | $\rho_{\mathrm{F}}$
-Number of feasible components | $N_{\mathcal{F}}$
-Largest feasible component | $\mathcal{F}_{\mathrm{max}}$
-Median feasible component | $\mathcal{F}_{\mathrm{med}}$
-Smallest feasible component | $\mathcal{F}_{\mathrm{min}}$
-Proportion of Pareto-optimal solutions in the largest feasible component | $\mathcal{O}(\mathcal{F}_{\mathrm{max}})$
-Size of the optimal feasible component | $\mathcal{F}_{\mathrm{opt}}$
-Proportion of boundary Pareto-optimal solutions | $\rho_{\partial S_o}$
-Maximum information content | $H_{\mathrm{max}}$
-Settling sensitivity | $\epsilon_s$
-Initial partial information | $M_0$
-Minimum correlation | $\rho_{\mathrm{min}}$
-Maximum correlation | $\rho_{\mathrm{max}}$
-Number of basins | $N_{\mathcal{B}}$
-Largest basin | $\mathcal{B}_{\mathrm{max}}$
-Median basin | $\mathcal{B}_{\mathrm{med}}$
-Smallest basin | $\mathcal{B}_{\mathrm{min}}$
-Largest feasible basin | $(\mathcal{B}_\mathrm{F})_{\mathrm{max}}$
-Median feasible basin | $(\mathcal{B}_\mathrm{F})_{\mathrm{med}}$
-Smallest feasible basin | $(\mathcal{B}_\mathrm{F})_{\mathrm{min}}$
-Proportion of Pareto-optimal solutions in the largest basin | $\mathcal{O}(\mathcal{B}_{\mathrm{max}})$
-Size of the optimal basin | $\mathcal{B}_{\mathrm{opt}}$
-Proportion of feasible basins | $\cup \mathcal{B}_\mathrm{F}$
-Maximum constraint violation of all basins | $v(\mathcal{B})_{\mathrm{max}}$
-Median constraint violation over all basins | $v(\mathcal{B})_{\mathrm{med}}$
-Constraint violation of the maximum basin | $v(\mathcal{B}_{\mathrm{max}})$
-Maximal ratio of feasible boundary crossings | $(\rho_{\partial F})_{\mathrm{max}}$
-Median ratio of feasible boundary crossings | $(\rho_{\partial F})_{\mathrm{median}}$
-Minimal ratio of feasible boundary crossings | $(\rho_{\partial F})_{\mathrm{min}}$
+Feasibility ratio | $$\rho_{\mathrm{F}}$$
+Number of feasible components | $$N_{\mathcal{F}}$$
+Largest feasible component | $$\mathcal{F}_{\mathrm{max}}$$
+Median feasible component | $$\mathcal{F}_{\mathrm{med}}$$
+Smallest feasible component | $$\mathcal{F}_{\mathrm{min}}$$
+Proportion of Pareto-optimal solutions in the largest feasible component | $$\mathcal{O}(\mathcal{F}_{\mathrm{max}})$$
+Size of the optimal feasible component | $$\mathcal{F}_{\mathrm{opt}}$$
+Proportion of boundary Pareto-optimal solutions | $$\rho_{\partial S_o}$$
+Maximum information content | $$H_{\mathrm{max}}$$
+Settling sensitivity | $$\epsilon_s$$
+Initial partial information | $$M_0$$
+Minimum correlation | $$\rho_{\mathrm{min}}$$
+Maximum correlation | $$\rho_{\mathrm{max}}$$
+Number of basins | $$N_{\mathcal{B}}$$
+Largest basin | $$\mathcal{B}_{\mathrm{max}}$$
+Median basin | $$\mathcal{B}_{\mathrm{med}}$$
+Smallest basin | $$\mathcal{B}_{\mathrm{min}}$$
+Largest feasible basin | $$(\mathcal{B}_\mathrm{F})_{\mathrm{max}}$$
+Median feasible basin | $$(\mathcal{B}_\mathrm{F})_{\mathrm{med}}$$
+Smallest feasible basin | $$(\mathcal{B}_\mathrm{F})_{\mathrm{min}}$$
+Proportion of Pareto-optimal solutions in the largest basin | $$\mathcal{O}(\mathcal{B}_{\mathrm{max}})$$
+Size of the optimal basin | $$\mathcal{B}_{\mathrm{opt}}$$
+Proportion of feasible basins | $$\cup \mathcal{B}_\mathrm{F}$$
+Maximum constraint violation of all basins | $$v(\mathcal{B})_{\mathrm{max}}$$
+Median constraint violation over all basins | $$v(\mathcal{B})_{\mathrm{med}}$$
+Constraint violation of the maximum basin | $$v(\mathcal{B}_{\mathrm{max}})$$
+Maximal ratio of feasible boundary crossings | $$(\rho_{\partial F})_{\mathrm{max}}$$
+Median ratio of feasible boundary crossings | $$(\rho_{\partial F})_{\mathrm{median}}$$
+Minimal ratio of feasible boundary crossings | $$(\rho_{\partial F})_{\mathrm{min}}$$
 
 #### Visualizations of multiple features ####
 * Feature space visualization using dimensionality reduction methods: PCA, Isomap, MDS, and t-SNE.
