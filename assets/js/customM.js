@@ -16,11 +16,11 @@ var dimSui = {
 };
 
 /* Features */
-var valuesFea = ["fr", "n_com", "max_com", "median_com", "min_com", "opt_max_com", "size_opt_com",
-	"pf_bound", "h_max", "m0", "corr_min", "corr_max", "n_basin", "max_basin", "median_basin",
-	"min_basin", "max_feas_basin", "median_feas_basin", "min_feas_basin", "opt_max_basin",
-	"size_opt_basin", "fr_basin", "max_cv_basin", "median_cv_basin", "cv_max_basin", "max_rfb",
-	"median_rfb", "min_rfb"];
+var valuesFea = ["n_com", "min_com", "median_com", "max_com", "opt_max_com", "size_opt_com",
+	"fr", "corr_min", "corr_max", "pf_bound", "h_max", "eps_s", "m0", "min_rfb", "median_rfb", "max_rfb",
+	"n_basin", "min_basin", "median_basin", "max_basin", "min_feas_basin", "median_feas_basin",
+	"max_feas_basin", "fr_basin", "median_cv_basin", "cv_max_basin", "opt_max_basin",
+	"size_opt_basin"];
 
 /* Fill the suite dropdown with values */
 var selectSui = document.getElementById("sui");
