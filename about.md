@@ -26,9 +26,6 @@ Welcome to the website with supplementary material for the paper entitled **Char
 #### Visualizations of separate features: ####
 * Violin plots showing feature distributions for each test suite and three dimensionality: 2, 3, 5.
 
-Symbol | Feature
--------| -------
-$a^2$| a
-
 #### Visualizations of multiple features: ####
 * Feature space visualization using dimensionality reduction methods: PCA, Isomap, MDS, and t-SNE.  
+$a^2$ \\( a^2 \\)
