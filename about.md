@@ -21,14 +21,14 @@ Welcome to the website with supplementary material for the paper entitled **Char
 * *Problem landscape* as a combination between *dominance ratio* (blue) and *violation landscape* (pink).
 * *Dominance ratio* for each sampled solution expressed as a proportion of all sampled solutions that dominate it.
 * *Violation landscape* in terms of constraint violation values whit the feasible region presented in white.
-* *All solutions* in the objective space where blue indicates the objective values that can be obtained with feasible solutions, while pink color indicates solutions that can be obtained with infeasible solutions only.
+* *All solutions* in the objective space where blue color indicates the objective values that can be obtained with feasible solutions, while pink color indicates solutions that can be obtained with infeasible solutions only.
 * *Non-dominated solutions* in the objective space where the unconstrained Pareto front is depicted in pink and the constrained Pareto front in blue.
 
 #### Visualizations of separate features ####
-* Violin plots showing feature distributions for each test suite and three dimensionalities: 2, 3, 5.
+* Violin plots showing feature distributions for each test suite and three dimensionalities: 2, 3, 5. All the features used are presented in the table below.
 
 Feature | Symbol
-------- | ------
+:------- | :------
 Feasibility ratio | $$\rho_{\mathrm{F}}$$
 Number of feasible components | $$N_{\mathcal{F}}$$
 Largest feasible component | $$\mathcal{F}_{\mathrm{max}}$$
