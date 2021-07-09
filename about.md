@@ -24,11 +24,11 @@ Welcome to the website with supplementary material for the paper entitled **Char
 * *Non-dominated solutions* in the objective space where the unconstrained Pareto front is depicted in pink and the constrained Pareto front in blue.
 
 #### Visualizations of separate features: ####
-* Violin plots showing feature distributions for each test suite and various dimensionality (2, 3, 5, any).
+* Violin plots showing feature distributions for each test suite and three dimensionality: 2, 3, 5.
 
 Symbol | Feature
 -------| -------
-\\(a^2\\)| a
+$a^2$| a
 
 #### Visualizations of multiple features: ####
 * Feature space visualization using dimensionality reduction methods: PCA, Isomap, MDS, and t-SNE.  
