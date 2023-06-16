@@ -2,7 +2,7 @@
 /* Functions for the Visualizations of empirical runtime distributions page */
 /****************************************************************************/
 
-let num_columns = 3;
+var numColumns = 3;
 
 /* Url to the plots */
 plotPath = "../assets/img/plots-performance/";
@@ -39,8 +39,8 @@ changePlot();
 
 /* Show the plots wrt the chosen suite. */
 function changePlot() {
-	let plotName;
-	let chosenSui = sui.value;
+	var plotName;
+	var chosenSui = sui.value;
 	var chosenSuiIndex = 0;
 	var chosenDim = "";
 	/* Get index for the chosen suite */
@@ -57,14 +57,14 @@ function changePlot() {
             chosenDim = namesDim[iDim];
             plotName = "ECDF_" + problemSui[chosenSui][iPrb] + "-" + chosenDim + ".png";
             // document.getElementById("test").value += plotPath + plotName + "\n";
-            addPlot(plotPath, plotName, num_columns);
+            addPlot(plotPath, plotName, numColumns);
         }
 	}
 }
 
 /* Adds the plot to the aggProblem div */
 function addAggPlot(path, plotName, columns) {
-  let plotWidth = 100 / columns;
+  var plotWidth = 100 / columns;
   var elemDiv = document.createElement('div');
   var elemA = document.createElement('a');
   var elemImg = document.createElement("img");
@@ -80,12 +80,12 @@ function addAggPlot(path, plotName, columns) {
 
 function showAggProblems() {
     for (let iSui = 0; iSui < valuesSui.length; iSui++) {
-        let chosenSui = valuesSui[iSui];
+        var chosenSui = valuesSui[iSui];
         for (let iDim = 0; iDim < namesDim.length; iDim++) {
             chosenDim = namesDim[iDim];
             plotName = "ECDF_" + chosenSui + "-" + chosenDim + ".png";
             // document.getElementById("test").value += plotPath + plotName + "\n";
-            addAggPlot(plotPath, plotName, num_columns);
+            addAggPlot(plotPath, plotName, numColumns);
         }
 	}
 }
