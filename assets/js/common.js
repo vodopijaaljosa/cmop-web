@@ -13,8 +13,8 @@ for (let i = 1; i <= 10; i++) {
 selectCol.innerHTML = contentsCol;
 
 /* Adds the plot to the div */
-function addPlot(path, plotName) {
-  let plotWidth = 100 / col.value;
+function addPlot(path, plotName, columns) {
+  let plotWidth = 100 / columns;
   var elemDiv = document.createElement('div');
   var elemA = document.createElement('a');
   var elemImg = document.createElement("img");

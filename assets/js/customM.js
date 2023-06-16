@@ -60,7 +60,7 @@ selectNode(document.getElementById(selectedNode));
 Exactly one of these categories contains all possible values, the rest only the chosen one. */
 function changePlot() {
 	let plotName;
-	let chosenSui = [sui.value]
+	let chosenSui = [sui.value];
 	let chosenDim = [dim.value];
 	let chosenViz = [viz.value];
 	let textName;
@@ -81,7 +81,7 @@ function changePlot() {
 			for (let iViz = 0; iViz < chosenViz.length; iViz++) {
 				if (dimSui[chosenDim[iDim]].indexOf(chosenSui[iSui]) > -1) {
 					plotName = "proj-" + chosenDim[iDim] + "-" + chosenViz[iViz] + "-" + chosenSui[iSui] + ".png";
-					addPlot(plotPath, plotName);
+					addPlot(plotPath, plotName, col.value);
 					//document.getElementById("test").value += plotName + "\n";
 			    }
 			}
@@ -91,7 +91,7 @@ function changePlot() {
 		for (let iDim = 0; iDim < chosenDim.length; iDim++) {
 			for (let iViz = 0; iViz < chosenViz.length; iViz++) {
 				plotName = "proj-" + chosenDim[iDim] + "-" + chosenViz[iViz] + "-color-" + valuesFea[iFea] + ".png";
-				addPlot(plotPath, plotName);
+				addPlot(plotPath, plotName, col.value);
 				//document.getElementById("test").value += plotName + "\n";
 			}
 		}

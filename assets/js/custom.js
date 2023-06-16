@@ -57,7 +57,7 @@ function changePlot() {
       let suite = valuesSui[iSui];
       for (let iPrb = 0; iPrb < countSui[iSui]; iPrb++) {
         plotName = problemSui[suite][iPrb] + "-" + chosenViz + ".png";
-        addPlot(plotPath, plotName);
+        addPlot(plotPath, plotName, col.value);
         //document.getElementById("test").value += plotPath + plotName + "\n";
       }
     }
@@ -72,7 +72,7 @@ function changePlot() {
     for (let iPrb = 0; iPrb < countSui[chosenSuiIndex]; iPrb++) {
       for (let iViz = 0; iViz < valuesViz.length; iViz++) {
         plotName = problemSui[suite][iPrb] + "-" + valuesViz[iViz] + ".png";
-        addPlot(plotPath, plotName);
+        addPlot(plotPath, plotName, col.value);
         //document.getElementById("test").value += plotPath + plotName + "\n";
       }
     }
