@@ -17,7 +17,7 @@ multiobjective optimization problems:
 * Aljoša Vodopija, Tea Tušar, Bogdan Filipič. [**Characterization of constrained continuous multiobjective optimization problems: A feature space perspective**](https://doi.org/10.1016/j.ins.2022.05.106),
 _Information Sciences_ 607:244-262, 2022.
 * Aljoša Vodopija, Tea Tušar, Bogdan Filipič. [**Characterization of constrained continuous multiobjective pptimization problems: A performance space perspective**](https://doi.org/10.1109/TEVC.2024.3366659), 
-_IEEE Transactions on Evolutionary Computation_, 29(1):275-285, 2023.
+_IEEE Transactions on Evolutionary Computation_, 29(1):275-285, 2025.
 
 ---
 
